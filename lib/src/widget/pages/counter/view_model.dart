@@ -1,14 +1,14 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'ui_state.dart';
+import 'view_state.dart';
 
 part 'view_model.g.dart';
 
 @riverpod
 final class ViewModel extends _$ViewModel {
   @override
-  UiState build() {
-    return const UiState(
+  ViewState build() {
+    return const ViewState(
       counter: 0,
     );
   }

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'pages/home/home_page.dart';
+import 'pages/root/root_page.dart';
 import 'themes/app_theme_data.dart';
 
 RouteFactory createRouter() {
   return (RouteSettings setting) {
     return MaterialPageRoute(
-      builder: (context) => const HomePage(title: 'Flutter Demo Home Page'),
+      builder: (context) => const RootPage(),
     );
   };
 }
